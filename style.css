@@ -69,7 +69,7 @@ p{
 }
 .collam2 img{
     width: 80%;
-    margin-left: 100px;
+    float: right;
     
 }
 .button{
@@ -81,4 +81,29 @@ p{
     padding: 10px 20px;
     border-radius: 50px;
     
+}
+#about{
+    background-image: url(asstest/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.collam1 img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about-collam1{
+    width: 50% !important;
+}
+#about-collam2{
+    width: 40% !important;
+    margin: auto;
+    
+    
+}
+##about-collam2 p{
+    width: 100%;
 }
