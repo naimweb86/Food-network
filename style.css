@@ -12,6 +12,7 @@ body{
     text-align:center;
     
     
+    
 }
 li{
     display: inline;
@@ -26,6 +27,7 @@ li a{
     text-decoration: none;
     color: aliceblue;
     padding: 10px;
+    text-transform: uppercase;
     
     
 
@@ -193,6 +195,7 @@ input{
     margin: 10px;
     width: 100%;
     padding: 10px;
+    font-weight: 700;
     
 
 }
@@ -201,6 +204,9 @@ textarea{
     margin: 10px;
     width: 100%;
     padding: 10px;
+    font-weight: 700;
+    font-family: ;
+
     
     
 }
@@ -216,4 +222,55 @@ textarea{
     border-radius: 50px;
     border: none;
     
+}
+#info-section{
+    background-color:white;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 30px -10px rgb(155, 155, 155);
+    margin-bottom: 50px;
+    
+}
+#info{
+    display: flex;
+  
+}
+.info-collam{
+    width: 33%;
+    margin-left: 100px;
+    
+}
+.info-collam h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: -20px;
+
+}
+.info-collam p{
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+#footer-section{
+    padding: 50px 0px;
+    background-color: black
+}
+#footer h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+#footer p{
+    text-align: center;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 18px;
 }
