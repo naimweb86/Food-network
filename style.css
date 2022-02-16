@@ -9,47 +9,31 @@ body{
     background-color: black;
     padding: 10px;
     margin-top: 0px;
-    text-align:center;
-    
-    
-    
+    text-align:center;  
 }
 li{
     display: inline;
     color: white;
     margin: 10px 15px;
-    
-    
-
-
 }
 li a{
     text-decoration: none;
     color: aliceblue;
     padding: 10px;
     text-transform: uppercase;
-    
-    
-
 }
 li a:hover{
     background-color: orange;
     padding: 10px;
 }
-
 #top-sec{
     margin: auto;
     display: flex;
-    padding: 5% 6%;
-    
-
-    
-    
+    padding: 5% 6%; 
 }
 .collam1{
     width: 50%;
     margin: auto;
-    
 }
 .collam2{
     width: 50%;
@@ -61,7 +45,6 @@ li a:hover{
 }
 .span1{
     color: orange;
-
 }
 p{
     size: 18px;
@@ -83,7 +66,6 @@ p{
     font-weight: 700;
     padding: 10px 20px;
     border-radius: 50px;
-    
 }
 #about{
     display: flex;
@@ -93,25 +75,19 @@ p{
     background-size: cover;
     padding-top: 50px;
     margin-bottom: 50px;
-    
-
 }
 .collam1 img{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     float: right;
-    
-    
 }
 #about-collam1{
     width: 30% !important;
 }
 #about-collam2{
     width: 40% !important;
-    margin: auto;
-    
-    
+    margin: auto;   
 }
 ##about-collam2 p{
     width: 100%;
@@ -230,23 +206,20 @@ textarea{
     padding: 30px;
     border-radius: 25px;
     box-shadow: 5px 10px 30px -10px rgb(155, 155, 155);
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;   
 }
 #info{
-    display: flex;
-  
+    display: flex;  
 }
 .info-collam{
     width: 33%;
-    margin-left: 100px;
     
 }
 .info-collam h1{
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     font-weight: 900;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
 
 }
 .info-collam p{
